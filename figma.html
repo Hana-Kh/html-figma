@@ -1,0 +1,48 @@
+<html>
+  <head>
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+  	<link rel="stylesheet" href="figma.css">
+    <title>My Music</title>
+  </head>
+
+  <body>
+  	<div class="rect1">
+    	<h1 id="title">My Music</h1>
+    </div>
+    <p id="dscription">
+      This is site about my passion - music.
+    </p>
+    <form id="survey-form" class="rect3">
+		<label id="name-label" for="name">Name: </label><input type="text" id="name" name="name" placeholder="Bob"><br>
+		<label id="email-label" for="email">Email: </label><input type="text" id="email" name="email" placeholder="bob@email.com"><br>
+		<label id="number-label" for="number">Age: </label><input type="number" id="number" name="number" min="6" max="99" placeholder="20"><br>
+
+		<label id="instrument-label" for="instrument">Instrument: </label>
+		<select name="instrument" id="dropdown">
+			<option value="piano">Piano</option>
+			<option value="guitar">Guitar</option>
+			<option value="voilin">Violin</option>
+			<option value="drums">Drums</option>
+		</select><br>
+
+		<label id="skill-label" for="skill">Playing skills: </label><br>
+		<input type="radio" id="1" name="skill" value="1">
+			<label for="1">1 year</label><br>
+		<input type="radio" id="2" name="skill" value="2">
+			<label for="2">2 years</label><br>
+		<input type="radio" id="3" name="skill" value="3">
+			<label for="3">3 years</label><br><br>
+
+		<label id="style-label" for="style">Playing style: </label><br>
+		<input type="checkbox" id="traditional" name="style" value="1">
+			<label for="traditional">traditional</label><br>
+		<input type="checkbox" id="non_traditional" name="style" value="0">
+			<label for="non_traditional">non traditional</label><br><br>
+
+		<label id="comments-label" for="comments">Additional comments:</label><br>
+			<textarea id="comments" name="comments" rows="5" cols="33"></textarea><br>
+
+		<input type="submit" value="Submit" class="btn_primery">
+	</form>
+  </body>
+</html>
